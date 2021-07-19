@@ -26,7 +26,7 @@ class _PrimeiraRotaState extends State<PrimeiraRota> {
 
 
       ),
-      body: Center(
+      body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
           Padding(padding: EdgeInsets.all(5),
@@ -255,7 +255,7 @@ class QuartaRota extends StatelessWidget{
           ),
         ),
 
-        body: Center(
+        body: SingleChildScrollView(
           child: Column(
             children: <Widget>[
               Padding(padding:
